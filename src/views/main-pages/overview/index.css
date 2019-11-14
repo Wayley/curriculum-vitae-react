@@ -1,0 +1,74 @@
+.overview {
+  position: absolute;
+  top: 10vh;
+  left: 5vw;
+  right: 5vw;
+}
+.overview-info {
+  position: relative;
+}
+.overview .avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: url("https://avatars0.githubusercontent.com/u/23481263") no-repeat
+    50%;
+  background-size: contain;
+  transition: box-shadow 0.5s linear;
+}
+.info-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3rem;
+  height: 3rem;
+  transform: translateX(-50%) translateY(-50%);
+}
+.info-list .info-item {
+  position: absolute;
+  top: 100%;
+  left: 210%;
+  width: 3.28125rem;
+  height: 3.28125rem;
+  line-height: 3.28125rem;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8125rem;
+  box-shadow: inset 0 0 1.5625rem 0.3125rem hsla(0, 0%, 100%, 0.67);
+  -webkit-animation: pulse 2s linear infinite;
+  animation: pulse 2s linear infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scaleX(1);
+  }
+
+  50% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+.info-list .info-item:nth-child(1) {
+  top: -190%;
+  left: -170%;
+}
+
+.info-list .info-item:nth-child(2) {
+  top: 120%;
+  left: -220%;
+}
+
+.info-list .info-item:nth-child(3) {
+  top: -170%;
+  left: 170%;
+}
+
+.info-list .info-item:nth-child(4) {
+  top: 100%;
+  left: 210%;
+}

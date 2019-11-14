@@ -8,9 +8,9 @@ import MainPages from "./views/main-pages";
 function App() {
   return (
     <div className="App">
-      <Header name="wzheng123" />
+      {/* <Header name="wzheng123" /> */}
       <MainPages />
-      <Footer version="0.0.1" />
+      {/* <Footer version="0.0.1" /> */}
     </div>
   );
 }

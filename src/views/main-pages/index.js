@@ -11,7 +11,7 @@ const Fullpage = () => (
     navigation={true}
     parallax={true}
     slidesNavigation={true}
-    sectionsColor={["#4BBFC3", "#f2f2f2", "#7BAABE"]}
+    sectionsColor={["#87b0a5", "#f2f2f2", "#7BAABE"]}
     responsiveWidth={700}
     navigationTooltips={["简介", "教育背景", "工作经验"]}
     render={({ state, fullpageApi }) => {
@@ -27,8 +27,14 @@ const Fullpage = () => (
             <Experience />
           </div>
 
-          <div className="page-move-arrow">
-            <button onClick={() => fullpageApi.moveSectionDown()}>
+          <div className="section">
+            <p>Section 1 (welcome to fullpage.js)</p>
+            <button
+              onClick={() => {
+                fullpageApi.moveSectionDown();
+                console.log(123, state);
+              }}
+            >
               Click me to move down
             </button>
           </div>
