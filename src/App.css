@@ -3,3 +3,18 @@
   color: rgb(0, 183, 255);
   font-size: 5vmin;
 }
+.page-move-arrow {
+  position: absolute;
+  bottom: 20px;
+  width: 20px;
+  height: 35px;
+  left: 50%;
+  z-index: 100;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/P…A3LTUwLjM4NyAweiIgcC1pZD0iMTgwODYiIGZpbGw9IiNmZmZmZmYiPjwvcGF0aD48L3N2Zz4=)
+    no-repeat bottom center;
+  background-size: contain;
+  color: red;
+  pointer-events: none;
+  transform: translateX(-50%);
+  animation: arrowAnimate 1.5s ease-in-out infinite;
+}
