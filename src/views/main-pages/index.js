@@ -10,16 +10,18 @@ const Fullpage = () => (
     scrollingSpeed={1000}
     navigation={true}
     parallax={true}
-    sectionsColor={["#f2f2f2", "#4BBFC3", "#7BAABE"]}
+    slidesNavigation={true}
+    sectionsColor={["#4BBFC3", "#f2f2f2", "#7BAABE"]}
     responsiveWidth={700}
+    navigationTooltips={["简介", "教育背景", "工作经验"]}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper className="Wrapper">
           <div className="section">
-            <Education />
-          </div>
-          <div className="section active">
             <Overview />
+          </div>
+          <div className="section">
+            <Education />
           </div>
           <div className="section">
             <Experience />
