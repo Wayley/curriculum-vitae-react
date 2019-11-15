@@ -1,8 +1,0 @@
-.info-list {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 3rem;
-  height: 3rem;
-  transform: translateX(-50%) translateY(-50%);
-}

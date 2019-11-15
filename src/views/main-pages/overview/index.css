@@ -1,6 +1,6 @@
 .overview {
   position: absolute;
-  top: 10vh;
+  top: 20vh;
   left: 5vw;
   right: 5vw;
 }
@@ -28,7 +28,7 @@
 .info-list .info-item {
   position: absolute;
   top: 100%;
-  left: 210%;
+  left: 260%;
   width: 3.28125rem;
   height: 3.28125rem;
   line-height: 3.28125rem;
@@ -53,22 +53,6 @@
     transform: scaleX(1);
   }
 }
-.info-list .info-item:nth-child(1) {
-  top: -190%;
-  left: -170%;
-}
-
-.info-list .info-item:nth-child(2) {
-  top: 120%;
-  left: -220%;
-}
-
-.info-list .info-item:nth-child(3) {
-  top: -170%;
-  left: 170%;
-}
-
-.info-list .info-item:nth-child(4) {
-  top: 100%;
-  left: 210%;
+.overview-desc {
+  margin-top: 7.5rem;
 }
