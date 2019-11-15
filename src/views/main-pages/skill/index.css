@@ -1,0 +1,94 @@
+.skill {
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+  right: 5vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.skill-circle {
+  position: relative;
+}
+.circle-container {
+  border: 0.25rem dashed #999;
+  border-radius: 50%;
+  text-align: center;
+}
+.circle-outer {
+  width: 16.5625rem;
+  height: 16.5625rem;
+  position: relative;
+  margin: 0 auto;
+}
+.circle-inner {
+  width: 9.375rem;
+  height: 9.375rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.circle-item {
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  backface-visibility: hidden;
+  backface-visibility: hidden;
+  animation-duration: 8s, 8s;
+  animation-timing-function: cubic-bezier(0.36, 0, 0.64, 1),
+    cubic-bezier(0.36, 0, 0.64, 1);
+  animation-iteration-count: infinite, infinite;
+  animation-direction: alternate, alternate;
+  animation-fill-mode: none, none;
+  animation-play-state: running, running;
+  font-size: 12px;
+}
+.outer-item {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  animation-name: outerX, outerY;
+}
+
+.inner-item {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  animation-name: innerX, innerY;
+}
+@keyframes outerX {
+  0% {
+    left: -35px;
+  }
+  100% {
+    left: 230px;
+  }
+}
+@keyframes outerY {
+  0% {
+    top: -30px;
+  }
+  100% {
+    top: 230px;
+  }
+}
+@keyframes innerX {
+  0% {
+    left: -28px;
+  }
+  100% {
+    left: 125px;
+  }
+}
+@keyframes innerY {
+  0% {
+    top: 125px;
+  }
+  100% {
+    top: -28px;
+  }
+}
