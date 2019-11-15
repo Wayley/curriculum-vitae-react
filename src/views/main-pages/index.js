@@ -4,6 +4,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Overview from "./overview";
 import Education from "./education";
 import Experience from "./experience";
+import Skill from "./skill";
 
 const Fullpage = () => (
   <ReactFullpage
@@ -22,6 +23,9 @@ const Fullpage = () => (
           </div>
           <div className="section">
             <Education />
+          </div>
+          <div className="section active">
+            <Skill />
           </div>
           <div className="section">
             <Experience />
