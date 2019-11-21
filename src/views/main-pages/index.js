@@ -12,7 +12,7 @@ const Fullpage = () => (
     navigation={true}
     parallax={true}
     slidesNavigation={true}
-    sectionsColor={["#87b0a5", "#f2f2f2", "#7BAABE"]}
+    sectionsColor={["#87b0a5", "#f2f2f2", "#7BAABE", "#945c4c"]}
     responsiveWidth={700}
     navigationTooltips={["简介", "教育背景", "工作经验"]}
     render={({ state, fullpageApi }) => {
@@ -24,10 +24,10 @@ const Fullpage = () => (
           <div className="section">
             <Education />
           </div>
-          <div className="section active">
+          <div className="section">
             <Skill />
           </div>
-          <div className="section">
+          <div className="section active">
             <Experience />
           </div>
 

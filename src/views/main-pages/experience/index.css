@@ -1,0 +1,25 @@
+.experience {
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+  right: 5vw;
+}
+.experience-list {
+  width: 80vw;
+  height: 45vh;
+  background: #f2f4f5;
+  margin: 0 auto;
+  padding: 0 5vw;
+  border-radius: 0.3125rem;
+  color: #000;
+  transition: transform 0.3s linear;
+  overflow: hidden;
+  box-shadow: 0 0 0.78125rem rgba(0, 0, 0, 0.5);
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+}
+.experience-item {
+  width: 750px;
+  height: 350px;
+}

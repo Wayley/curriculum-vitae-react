@@ -19,14 +19,14 @@
   text-align: center;
 }
 .circle-outer {
-  width: 16.5625rem;
-  height: 16.5625rem;
+  width: 15rem;
+  height: 15rem;
   position: relative;
   margin: 0 auto;
 }
 .circle-inner {
-  width: 9.375rem;
-  height: 9.375rem;
+  width: 10rem;
+  height: 10rem;
   position: absolute;
   top: 50%;
   left: 50%;
