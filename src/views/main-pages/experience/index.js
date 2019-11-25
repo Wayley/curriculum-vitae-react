@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./index.css";
 
+// 鼠标进入时候的效果setExpTouch3D
 function setExpTouch3D() {
   const expDom = document.getElementsByClassName("slider")[0];
   const contentDom = expDom.parentNode;
